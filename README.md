@@ -35,3 +35,33 @@ This project simulates customer data migration from a source system to a target 
 - Data Cleansing
 - Data Mapping
 - MySQL
+- ## Data Migration Workflow
+
+Source Data (CSV/Excel)
+        ↓
+Data Extraction
+        ↓
+Data Cleansing
+        ↓
+Data Validation
+        ↓
+Data Mapping
+        ↓
+Data Loading
+        ↓
+Target Database
+## Sample Output
+
+Before Cleaning:
+5 Records
+
+After Cleaning:
+2 Valid Records
+
+Duplicates Removed:
+1
+
+Invalid Records Removed:
+2
+
+Data Successfully Loaded
